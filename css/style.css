@@ -412,7 +412,7 @@ main .contact_page_form .form-list .form-item .checkbox-list .checkbox-item .che
   display: inline;
   cursor: pointer;
 }
-main .contact_page_form .form-list .form-item input, main .contact_page_form .form-list .form-item textarea {
+main .contact_page_form .form-list .form-item input[type=text], main .contact_page_form .form-list .form-item textarea {
   border: 1px solid #141414;
   width: 100%;
 }
