@@ -25,11 +25,11 @@ $bp_pc: 900px;
     @content;
   }
 }
-@mixin media_m(){
-  @media screen and (max-width: $bp_t){
-    @content;
-  }
-}
+// @mixin media_m(){
+//   @media screen and (max-width: $bp_t){
+//     @content;
+//   }
+// }
 /* モバイルファースト */
 @mixin media_pc(){
   @media screen and (min-width: $bp_pc){

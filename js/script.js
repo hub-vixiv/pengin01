@@ -34,7 +34,7 @@ const swiper = new Swiper(".swiper", {
   var windowHeight = $(window).height()
   //スクロールしてファーストビューを過ぎたらメニューを表示
   $(window).on('load scroll', function(){
-    if($(this).scrollTop() > windowHeight) {
+    if($(this).scrollTop() > windowHeight-100) {
       header.addClass('fixed');
     }else{
       header.removeClass('fixed');
