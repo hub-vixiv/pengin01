@@ -289,9 +289,13 @@ main{
         font-weight: bold;
       }
       .catch_text{
+        font-family: 'Noto Serif JP';
         font-size: 40px;
-        font-weight: bold;
+        font-weight: 700;
         text-align: center;
+        .br-sp{
+          display: none;
+        }
       }
     }
   }
@@ -569,12 +573,18 @@ footer
         left: 50%;
         transform: translate(-50%,0);
         white-space: nowrap;
-        .chatch_copy{
+        .catch_copy{
           font-size: 37px;
         }
         .catch_text{
+          margin: 0 auto;
           font-size: 30px;
-          width: 200px;
+          width: 250px;
+          height: 90px;
+          text-align: center;
+          .br-sp{
+            display: block;
+          }
         }
       }
     }

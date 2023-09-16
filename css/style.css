@@ -276,9 +276,13 @@ main .swiper .catch .catch_copy {
   font-weight: bold;
 }
 main .swiper .catch .catch_text {
+  font-family: "Noto Serif JP";
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
+}
+main .swiper .catch .catch_text .br-sp {
+  display: none;
 }
 main .concept .concept_copy {
   margin-bottom: 60px;
@@ -507,12 +511,18 @@ footer
     transform: translate(-50%, 0);
     white-space: nowrap;
   }
-  main .swiper .catch .chatch_copy {
+  main .swiper .catch .catch_copy {
     font-size: 37px;
   }
   main .swiper .catch .catch_text {
+    margin: 0 auto;
     font-size: 30px;
-    width: 200px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+  }
+  main .swiper .catch .catch_text .br-sp {
+    display: block;
   }
   main .concept .concept_copy {
     font-size: 20px;
